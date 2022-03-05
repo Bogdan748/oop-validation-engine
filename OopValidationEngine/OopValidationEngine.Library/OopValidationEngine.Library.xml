@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OopValidationEngine.Library</name>
+    </assembly>
+    <members>
+        <member name="M:OopValidationEngine.Library.Factories.MonkeyFactory.#ctor(System.String,System.Int32,System.Char)">
+            <summary>
+            Monkey object generator
+            </summary>
+            <param name="name"></param>
+            <param name="age"></param>
+            <param name="gender">Char of 'M' for masculine and 'F' for feminine</param>
+        </member>
+        <member name="M:OopValidationEngine.Library.Rules.PersonValidationRules.CNPgenderCheck.#ctor(System.Char)">
+            <summary>
+            Checks if the person's CNP is assignet to a spefic gender
+            </summary>
+            <param name="gender">M or F for Masculine or Feminine check</param>
+            <return>bool value </return>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <ApplicationIcon />
+    <Win32Resource />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\Fast Track IT\Github4\oop-validation-engine\OopValidationEngine\OopValidationEngine.Library\OopValidationEngine.Library.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
