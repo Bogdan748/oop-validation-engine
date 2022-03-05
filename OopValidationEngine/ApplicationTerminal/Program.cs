@@ -17,7 +17,7 @@ namespace ApplicationTerminal
                 new IsOverAge(20)
                 );
 
-            engine.Initialize(new PersonFactory("Popescu", "Dorel", "12345678903", 25));
+            engine.Initialize(new PersonFactory("Popescu", "Dorel", "12345678903", 25), new PersonFactory("Voin", "Carmen", "22345678903", 15));
 
             Console.WriteLine($"The rezult of the person validation is: {engine.Validate()}");
 
@@ -27,7 +27,7 @@ namespace ApplicationTerminal
                 new MonkeyGenderCheck('M')
                 );
 
-           monkeyEngine.Initialize(new MonkeyFactory("Dodo",43,'M'));
+           monkeyEngine.Initialize(new MonkeyFactory("Dodo",43,'M'), new MonkeyFactory("Mono", 20, 'M'));
 
             Console.WriteLine($"The rezult of the monkey validation is: {monkeyEngine.Validate()}");
 
